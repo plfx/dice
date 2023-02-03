@@ -10,4 +10,4 @@ yum -y install python3-pip-9.0.3
 pip3 install -Iv --upgrade pip==20.2.1
 
 # Install awscli and python dev libraries
-pip install --user -r scripts/requirements.txt
+pip install --user -r app/scripts/requirements.txt
