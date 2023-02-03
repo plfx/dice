@@ -2,4 +2,3 @@
 cd /home/ec2-user/app
 export NODE_ENV=production
 yarn start
-service httpd start
