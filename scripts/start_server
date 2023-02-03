@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ec2-user/app
+cd /home/ec2-user/app/.next/standalone
 export NODE_ENV=production
-yarn start -p 80
+PORT=80 node server.js
